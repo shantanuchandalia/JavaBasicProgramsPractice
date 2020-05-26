@@ -6,21 +6,38 @@ public class StarPrints {
 		// TODO Auto-generated method stub
 		int i,j;
 		
-		/*-----
-		*
-		**
-		***
-		****
-		*****
-		-----*/
+		int i,j;
 		
-		for( i=0;i<=5;i++)
+		//-----------------
+		//	o
+		//	oo 
+		//	ooo 
+		//	oooo 
+		//	ooooo 
+		//-----------------
+		for(i=1;i<6;i++)
 		{
-			for( j=1;j<=i;j++)
+			for(j=1;j<=i;j++)
 			{
-				System.out.print("*");
+				System.out.print("o");
 			}
-			System.out.println();
+			System.out.println(" ");
+		}
+		//-----------------
+		// ooooo 
+		// oooo 
+		// ooo 
+		// oo 
+		// o 
+		//-----------------
+		
+		for(i=5;i>0;i--)
+		{
+			for(j=0;j<i;j++)
+			{
+				System.out.print("o");
+			}
+			System.out.println(" ");
 		}
 	}
 
