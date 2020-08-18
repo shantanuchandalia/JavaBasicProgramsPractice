@@ -9,7 +9,6 @@ import java.security.*;
 public class encryption_SHA_256{
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
         Pattern p = Pattern.compile("[a-zA-Z0-9]{6,20}");
         //String str = sc.next();
